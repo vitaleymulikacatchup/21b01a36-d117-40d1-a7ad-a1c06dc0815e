@@ -11,7 +11,6 @@ const theme: SiteTheme = {
   styleVariant: "funAndTrendy",
   colorTemplate: 1,
   textAnimation: "slide",
-  buttonOption: "motion-icon"
 };
 
 export default function Home() {
@@ -40,7 +39,7 @@ export default function Home() {
         <NumberGridTokenomics title="Tokenomics" description="Explore our unique token distribution and ecosystem." />
       </div>
       <div id="footer" data-section="footer" className="scroll-mt-24">
-        <FooterLogoEmphasisBackgroundGradient logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32SzEkxKoNyIbQ4hnQYui6BHsfB/tmp/design-a-simple-high-contrast-logo-for-s-1759257333087-99832db0.jpg" logoAlt="Solana Ventures" logoText="Solana Ventures" items={[{ label: 'Privacy Policy', onClick: () => alert('Privacy policy clicked') }, { label: 'Terms of Service', onClick: () => alert('Terms of service clicked') }]} className="" backgroundBlobStyle={{}} gradientClassName="" gradientStyle={{}} />
+        <FooterLogoEmphasisBackgroundGradient logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32SzEkxKoNyIbQ4hnQYui6BHsfB/tmp/design-a-simple-high-contrast-logo-for-s-1759257333087-99832db0.jpg" logoAlt="Solana Ventures" logoText="Solana Ventures" items={[{ label: 'Privacy Policy', onClick: () => alert('Privacy policy clicked') }, { label: 'Terms of Service', onClick: () => alert('Terms of service clicked') }]} className="" />
       </div>
     </SiteThemeProvider>
   );
